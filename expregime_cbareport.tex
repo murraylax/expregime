@@ -1,0 +1,122 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{calc}
+\usepackage{setspace}
+\usepackage{multicol}
+\usepackage{fancyheadings}
+
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{rotating}
+\usepackage{harvard}
+\usepackage{aer}
+\usepackage{aertt}
+\usepackage{verbatim}
+
+\setlength{\voffset}{-0.25in}
+\setlength{\topmargin}{0pt}
+\setlength{\hoffset}{-0.25in}
+
+\setlength{\oddsidemargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0in}
+\setlength{\marginparsep}{0pt}
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparpush}{0pt}
+
+\setlength{\footskip}{.3in}
+\setlength{\textwidth}{7in}
+\setlength{\textheight}{9.5in}
+\setlength{\parskip}{1pc}
+\setlength{\parindent}{0pc}
+
+\renewcommand{\baselinestretch}{1}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\be}{\begin{enumerate}\setlength{\leftmargin}{0pt}}
+\newcommand{\ee}{\end{enumerate}}
+\newcommand{\bd}{\begin{description}}
+\newcommand{\ed}{\end{description}}
+\newcommand{\prbf}[1]{\textbf{#1}}
+\newcommand{\prit}[1]{\textit{#1}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\beqa}{\begin{eqnarray}}
+\newcommand{\eeqa}{\end{eqnarray}}
+\newcommand{\bdm}{\begin{displaymath}}
+\newcommand{\edm}{\end{displaymath}}
+\newcommand{\script}[1]{\begin{cal}#1\end{cal}}
+\newcommand{\citee}[1]{\citename{#1} (\citeyear{#1})}
+\newcommand{\h}[1]{\hat{#1}}
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\app}
+{
+\appendix
+}
+
+\newcommand{\appsection}[1]
+{
+\let\oldthesection\thesection
+\renewcommand{\thesection}{Appendix \oldthesection}
+\section{#1}\let\thesection\oldthesection
+\renewcommand{\theequation}{\thesection\arabic{equation}}
+\setcounter{equation}{0}
+}
+
+%\pagestyle{fancyplain}
+%\lhead{}
+%\chead{Identifying Regime Switching in Adaptive Expectations, Its Causes, and Consequences}
+%\rhead{\thepage}
+%\lfoot{}
+%\cfoot{}
+%\rfoot{}
+
+\pagestyle{plain}
+
+
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+\textbf{CBA FACULTY/ACADEMIC STAFF GRANT STATUS REPORT}\\
+\textbf{October 1, 2013}\\
+\end{center}
+
+PROPOSAL TITLE: \begin{center}Identifying Regime Switching in Adaptive Expectations, Its Causes, and Consequences\end{center}
+
+APPLICANT: James Murray, Department of Economics
+
+\noindent \textbf{Abstract (from original proposal):} It is widely understood in the macroeconomics literature that market participants' expectations matter for future economic outcomes.  A literature that focuses on least-squares learning (an expectations mechanism where market participants use relatively simple statistical regression models to form forecasts) has found that adaptive expectations can explain important macroeconomic episodes, such as escalations of inflation and economic volatility, and persistence in contractions of employment and aggregate investment.  There has been relatively little work, though, investigating the specific structure that expectations mechanisms should take.  This paper will investigate the possibility that market participants may switch between alternative forecasting models, which may lead to sudden swings in expectations, and in turn have important consequences on the macroeconomy.  I will estimate a Markov-switching model on Survey of Professional Forecasters' expectations to identify regime switches, and use these estimates to determine possible economic factors leading to switching, and estimate the subsequent consequences on macroeconomic variables such as unemployment, real GDP, and inflation.
+
+\noindent \textit{Keywords:} Learning, expectations, professional forecasts, regime switching. \\
+\noindent \textit{JEL classification:} C13, E20, E31. 
+
+\noindent \textbf{Proposal Outcomes and Progress:}\\ (Outcomes in italics and bold are from original proposal)
+\be
+\vspace*{-1pc} 
+\item \textbf{\textit{Quality research paper which will be distributed first through conference presentations and working paper series by Spring 2014 and eventually published in a peer-reviewed journal.}}
+
+This work is ongoing.  Over Summer 2013 I constructed a regime-switching regression model that is used to describe how private sector expectations (as given by the Survey of Professional Forecasters) are explained by competing adaptive expectations mechanisms.  I estimated the model and I am currently preparing the results and the first draft of a paper to submit for peer-reviewed publication.  I am scheduled to present the work in an organized session of the Midwest Economics Association annual meeting, to take place in March 2014.
+
+\item \textbf{\textit{The purpose of this research is to expand macroeconomists' knowledge of how market participants form expectations and what are the implications on the macroeconomy.}}  
+
+My modeling strategy begins with a simple regression model where forecasts from the Survey of Professional forecasts for real GDP growth, inflation, and unemployment rate are explained by a set of adaptive expectations forecasts.  These adaptive expectations forecasts are constructed using rolling-window time-series regressions.  These models include standard ordinary least-squares and constant-gain least-squares regressions with multiple explanatory macroeconomic variables, and univariate time-series regressions using ordinary least squares and constant-gain least squares.  
+
+The regression model that predicts private expectations based on constructed adaptive expectations forecasts illustrates how much private sector expectations are explained by competing adaptive expectations theories.  The regime-switching extension of the regression model allows for sudden changes in how private sector expectations depend on each type of adaptive expectations model.  The regime-switching model estimates when such changes occur and is able to describe the nature of these changes.  
+
+The final step of the analysis is going to be completed over Fall 2013 and early Spring 2014.  That is to use the estimates for changes in regime (changes in the way expectations are formed) and determine whether these explain upturns or downturn in the U.S. economy, or changes from periods with relative stability to periods with relatively more volatility.
+
+\item \textbf{\textit{Enhance my teaching of undergraduate macroeconomics by improving my understanding for the behavior of adaptive expectations in the U.S. economy and the implications for economic stability.}}
+
+I am scheduled to teach macroeconomic classes (ECO 120 and ECO 305) in Spring 2014.  I regularly include in my classes content that I have learned through my scholarly work, including ideas from reviewing the literature, and results from my own work.  
+\ee
+
+\noindent \textbf{Deviances from original proposal:} None.
+
+
+
+\end{document}
+
+
+
